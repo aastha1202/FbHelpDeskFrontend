@@ -1,0 +1,108 @@
+#root {
+  max-width: 1280px;
+  text-align: center;
+}
+
+.login-div{
+  background-color: white;
+  margin: 10em auto;
+  max-width: 30%;
+  padding: 2em;
+  color: black;
+  border-radius: 10px;
+}
+
+.red-button{
+  background-color: red;
+}
+.flex-div{
+  display: flex;
+  flex-direction: column;
+  /* gap: 1em; */
+}
+.sidebar{
+  align-self: flex-start;
+  height: 100vh;
+font-size: 2em;
+
+}
+.selected{
+  background-color: white;
+  color: rgb(31,77,145);
+  padding-left: 0;
+  padding-right: 0;
+  
+}
+.menuItem{
+  cursor: pointer;
+  /* width: 100%; */
+  padding: 0.3em 0.5em;
+
+}
+.conversation-list{
+  background-color: white;
+  color: black;
+}
+.conversation-header{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.3em;
+  border-bottom: 1px solid rgb(213, 202, 202);
+}
+.userName{
+  font-size: 1em;
+  font-weight: 600;
+}
+.dmType{
+  font-size: 0.8em;
+  /* font-weight: 500; */
+}
+.user-section{
+  padding: 8px;
+  cursor: pointer;
+}
+.center-screen{
+  background-color: rgb(246,246,246);
+  flex:1
+}
+.profile-upper-div{
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+.message-div{
+  width: 70%;
+  height: 100vh;
+  color: black;
+  justify-content: space-between;
+}
+.message-div input{
+  margin: 1em;
+  padding: 1em;
+}
+.flex-start{
+  align-items: start;
+}
+.conversation-thread{
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.message{
+  background-color: white;
+  width: fit-content;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+.message-from{
+  font-size: 12px;
+  font-weight: 500;
+}
+.message-box{
+  margin-left: 10px;
+}
