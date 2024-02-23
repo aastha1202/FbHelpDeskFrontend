@@ -52,7 +52,7 @@ const Conversation = () => {
         .catch((err) => console.log(err));
     }
     getLoggedInUser();
-  }, []);
+  }, [postMessage]);
 
   const handleMenuItemClick = (index) => {
     setSelectedMenuItem(index);
